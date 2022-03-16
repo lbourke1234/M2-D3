@@ -1,0 +1,10 @@
+.jumbotron {
+    background-image: url("./assets/limmer-hurl-big.jpeg");
+    background-size: 100% auto;
+    background-position: center;
+    color: white;
+}
+
+.card-text {
+    height: 5em;
+}
