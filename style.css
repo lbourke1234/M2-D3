@@ -8,3 +8,13 @@
 .card-text {
     height: 5em;
 }
+
+#welcome-summer {
+    box-shadow: 5px 10px;
+    box-shadow: 5px 10px #ce1d1d;
+}
+
+.testimonial {
+    border-radius: 50%;
+    max-width: 75px;
+}
