@@ -8,3 +8,7 @@
 
 // If you receive black as a color check where you have the inputs references.
 // You should now see the list-items color and background-color change at the click of the button.
+
+// Ex 12) Create a method that counts the number of "travels" on the page
+// Ex 15) Create a function that adds a "HOT" badge to all the "Welcome Summer" offers
+// Ex 16) Create a function to delete all "cards" from the page
