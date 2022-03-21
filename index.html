@@ -1,476 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <!-- Bootstrap CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-     <link rel="stylesheet" href="/style.css">
-    
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!-- This is the logo of the navbar -->
-      <a class="navbar-brand" href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check" viewBox="0 0 16 16">
-          <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-          <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-        </svg>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="" href="#jumbotron-section">Jumbotron</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="" href="#week-deal">Deal of the Week</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="" href="#welcome-summer">Welcome Summer</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section id="jumbotron-section">
-      <div class="jumbotron jumbotron-fluid ">
-        <div class="container">
-          <h1 class="display-4">🇮🇪 Irish European tours</h1>
-          <p class="lead">Fly to Europe without a visa. Even if you are 🇬🇧</p>
-        </div>
-      </div>
-    </section>
 
-    <div class="container">
-      <h2>Week Deal:</h2>
-      <button class="btn btn-primary week-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#week-deal" 
-      aria-controls="weekToggle" 
-      aria-expanded="false" 
-      aria-label="Toggle Week">
-      Collapse section
-      </button>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- This is the logo of the navbar -->
+    <a class="navbar-brand" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check"
+        viewBox="0 0 16 16">
+        <path
+          d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+        <path
+          d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+      </svg>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="" href="#jumbotron-section">Jumbotron</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="" href="#week-deal">Deal of the Week</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="" href="#welcome-summer">Welcome Summer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
     </div>
-
-    <section class="collapse show" id="week-deal">
+  </nav>
+  <section id="jumbotron-section">
+    <div class="jumbotron jumbotron-fluid ">
       <div class="container">
-        <div class="row" >
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card my-3" >
-              <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Dubai 🏜️</h5>
-                <p class="card-text">Visit the tallest building on earth.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/202" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Barcelona 🏖️</h5>
-                <p class="card-text">Cheap beers and great part.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/203" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Tokyo 🗾</h5>
-                <p class="card-text">Eat sushi and enjoy the culture</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/204" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Paris 🗼</h5>
-                <p class="card-text">The city of love</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+        <h1 class="display-4">🇮🇪 Irish European tours</h1>
+        <p class="lead">Fly to Europe without a visa. Even if you are 🇬🇧</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>Week Deal:</h2>
+    <button class="btn btn-primary week-toggler" type="button" data-toggle="collapse" data-target="#week-deal"
+      aria-controls="weekToggle" aria-expanded="false" aria-label="Toggle Week">
+      Collapse section
+    </button>
+  </div>
+
+  <section class="collapse show" id="week-deal">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/200" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dubai 🏜️</h5>
+              <p class="card-text">Visit the tallest building on earth.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/202" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Barcelona 🏖️</h5>
+              <p class="card-text">Cheap beers and great part.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/203" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo 🗾</h5>
+              <p class="card-text">Eat sushi and enjoy the culture</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/204" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Paris 🗼</h5>
+              <p class="card-text">The city of love</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
-    <div class="container">
-      <h2>Welcome Summer:</h2>
-      <button class="btn btn-primary week-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#welcome-summer" 
-      aria-controls="summerToggle" 
-      aria-expanded="false" 
-      aria-label="Toggle Summer">
-      Collapse section
-      </button>
     </div>
+  </section>
 
-    <section class="collapse show my-3" id="welcome-summer">
-      <div class="container">
+  <div class="container">
+    <h2>Welcome Summer:</h2>
+    <button class="btn btn-primary week-toggler" type="button" data-toggle="collapse" data-target="#welcome-summer"
+      aria-controls="summerToggle" aria-expanded="false" aria-label="Toggle Summer">
+      Collapse section
+    </button>
+  </div>
+
+  <section class="collapse show my-3" id="welcome-summer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dubai 🏜️</h5>
+              <p class="card-text">Visit the tallest building on earth.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Zurich 🍫</h5>
+              <p class="card-text">Come ski in the alps</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/302" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Barcelona 🏖️</h5>
+              <p class="card-text">Cheap beers and great part.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/303" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo 🗾</h5>
+              <p class="card-text">Eat sushi and enjoy the culture</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/304" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Paris 🗼</h5>
+              <p class="card-text">The city of love</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>Deal of the Day</h2>
+    <button class="btn btn-primary week-toggler" type="button" data-toggle="collapse" data-target="#deal-of-the-day"
+      aria-controls="dealToggle" aria-expanded="false" aria-label="Toggle Deal">
+      Collapse section
+    </button>
+  </div>
+
+  <section class="collapse show my-3" id="deal-of-the-day">
+    <div class="container">
+      <div class="row ">
+        <div class="col-8 d-none d-md-block">
+          <img src="https://picsum.photos/1000" class="w-100">
+        </div>
+        <div class="col-4 d-none d-md-block">
+
+          <P>Amsterdam</P>
+          <P>June 16 - June 27</P>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores veniam optio unde voluptas
+            corporis eos voluptatem molestiae sint dignissimos beatae, nulla repudiandae distinctio doloremque doloribus
+            modi accusamus non earum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>Last Minute</h2>
+    <button class="btn btn-primary week-toggler" type="button" data-toggle="collapse" data-target="#Last-minute"
+      aria-controls="lastToggle" aria-expanded="false" aria-label="Toggle Last">
+      Collapse section
+    </button>
+  </div>
+
+  <section class="collapse show my-3" id="Last-minute">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dubai 🏜️</h5>
+              <p class="card-text">Visit the tallest building on earth.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Zurich 🍫</h5>
+              <p class="card-text">Come ski in the alps</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/302" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Barcelona 🏖️</h5>
+              <p class="card-text">Cheap beers and great part.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/303" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo 🗾</h5>
+              <p class="card-text">Eat sushi and enjoy the culture</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card my-3">
+            <img class="card-img-top" src="https://picsum.photos/304" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Paris 🗼</h5>
+              <p class="card-text">The city of love</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>Testimonial</h2>
+    <button class="btn btn-primary week-toggler" type="button" data-toggle="collapse" data-target="#testimonial"
+      aria-controls="testimonialToggle" aria-expanded="false" aria-label="Toggle Testimonial">
+      Collapse section
+    </button>
+  </div>
+
+  <section class="collapse show my-3" id="testimonial">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card py-3 my-3 align-items-center">
+            <img class="card-img-top testimonial" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Dubai 🏜️</h5>
+              <p class="card-text">Visit the tallest building on earth.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card py-3 my-3 align-items-center">
+            <img class="card-img-top testimonial" src="https://picsum.photos/301" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Zurich 🍫</h5>
+              <p class="card-text">Come ski in the alps</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card py-3 my-3 align-items-center">
+            <img class="card-img-top testimonial" src="https://picsum.photos/302" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Barcelona 🏖️</h5>
+              <p class="card-text">Cheap beers and great part.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card py-3 my-3 align-items-center">
+            <img class="card-img-top testimonial" src="https://picsum.photos/303" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo 🗾</h5>
+              <p class="card-text">Eat sushi and enjoy the culture</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-2">
+          <div class="card py-3 my-3 align-items-center">
+            <img class="card-img-top testimonial" src="https://picsum.photos/304" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Paris 🗼</h5>
+              <p class="card-text">The city of love</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="page-footer font-small blue pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
         <div class="row">
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Dubai 🏜️</h5>
-                <p class="card-text">Visit the tallest building on earth.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Zurich 🍫</h5>
-                <p class="card-text">Come ski in the alps</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/302" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Barcelona 🏖️</h5>
-                <p class="card-text">Cheap beers and great part.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/303" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Tokyo 🗾</h5>
-                <p class="card-text">Eat sushi and enjoy the culture</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/304" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Paris 🗼</h5>
-                <p class="card-text">The city of love</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">Footer Content</h5>
+            <p>Here you can use rows and columns to organize your footer content.</p>
 
-    <div class="container">
-      <h2>Deal of the Day</h2>
-      <button class="btn btn-primary week-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#deal-of-the-day" 
-      aria-controls="dealToggle" 
-      aria-expanded="false" 
-      aria-label="Toggle Deal">
-      Collapse section
-      </button>
-    </div>
-
-    <section class="collapse show my-3" id="deal-of-the-day">
-      <div class="container">
-        <div class="row ">
-          <div class="col-8 d-none d-md-block">
-              <img src="https://picsum.photos/1000" class="w-100">
-          </div>
-          <div class="col-4 d-none d-md-block">
-              
-              <P>Amsterdam</P>
-              <P>June 16 - June 27</P>
-              <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit asperiores veniam optio unde voluptas corporis eos voluptatem molestiae sint dignissimos beatae, nulla repudiandae distinctio doloremque doloribus modi accusamus non earum.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      <h2>Last Minute</h2>
-      <button class="btn btn-primary week-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#Last-minute" 
-      aria-controls="lastToggle" 
-      aria-expanded="false" 
-      aria-label="Toggle Last">
-      Collapse section
-      </button>
-    </div>
-
-    <section class="collapse show my-3" id="Last-minute">
-      <div class="container">
-        
-        <div class="row">
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Dubai 🏜️</h5>
-                <p class="card-text">Visit the tallest building on earth.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Zurich 🍫</h5>
-                <p class="card-text">Come ski in the alps</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/302" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Barcelona 🏖️</h5>
-                <p class="card-text">Cheap beers and great part.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/303" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Tokyo 🗾</h5>
-                <p class="card-text">Eat sushi and enjoy the culture</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card my-3">
-              <img class="card-img-top" src="https://picsum.photos/304" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Paris 🗼</h5>
-                <p class="card-text">The city of love</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      <h2>Testimonial</h2>
-      <button class="btn btn-primary week-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#testimonial" 
-      aria-controls="testimonialToggle" 
-      aria-expanded="false" 
-      aria-label="Toggle Testimonial">
-      Collapse section
-      </button>
-    </div>
-
-    <section class="collapse show my-3"  id="testimonial">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card py-3 my-3 align-items-center">
-              <img class="card-img-top testimonial" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Dubai 🏜️</h5>
-                <p class="card-text">Visit the tallest building on earth.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card py-3 my-3 align-items-center">
-              <img class="card-img-top testimonial" src="https://picsum.photos/301" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Zurich 🍫</h5>
-                <p class="card-text">Come ski in the alps</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card py-3 my-3 align-items-center">
-              <img class="card-img-top testimonial" src="https://picsum.photos/302" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Barcelona 🏖️</h5>
-                <p class="card-text">Cheap beers and great part.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card py-3 my-3 align-items-center">
-              <img class="card-img-top testimonial" src="https://picsum.photos/303" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Tokyo 🗾</h5>
-                <p class="card-text">Eat sushi and enjoy the culture</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-2">
-            <div class="card py-3 my-3 align-items-center">
-              <img class="card-img-top testimonial" src="https://picsum.photos/304" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Paris 🗼</h5>
-                <p class="card-text">The city of love</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Footer -->
-    <div class="container">
-      <footer class="page-footer font-small blue pt-4">
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-          <!-- Grid row -->
-          <div class="row">
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-              <!-- Content -->
-              <h5 class="text-uppercase">Footer Content</h5>
-              <p>Here you can use rows and columns to organize your footer content.</p>
-              
-              <button type="button" 
-              class="btn btn-primary" 
-              data-toggle="modal" 
-              data-target="#exampleModal" 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
               data-whatever="enter your name here"> Contact us
             </button>
 
-            </div>
-            <!-- Grid column -->
-            <hr class="clearfix w-100 d-md-none pb-3">
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-              <!-- Links -->
-              <h5 class="text-uppercase">Links</h5>
-  
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-  
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-              <!-- Links -->
-              <h5 class="text-uppercase">Links</h5>
-  
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#!">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!">Link 2</a>
-                </li>
-                <li>
-                  <a href="#!">Link 3</a>
-                </li>
-                <li>
-                  <a href="#!">Link 4</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Grid column -->
           </div>
-          <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-  
-      </footer>
-    </div>
-    <!-- Footer -->
+          <!-- Grid column -->
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
 
-    <!-- A tabindex="-1" value removes the element from the default navigation flow (i.e., a user cannot tab to it), 
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+    </footer>
+  </div>
+  <!-- Footer -->
+
+  <!-- A tabindex="-1" value removes the element from the default navigation flow (i.e., a user cannot tab to it), 
     but it allows it to receive programmatic focus, meaning focus can be set to it from a link or with scripting.**
     This can be very useful for elements that should not be tabbed to, but that may need to have focus set to them. -->
 
-    <div class="modal fade" 
-    id="exampleModal" 
-    tabindex="-1" 
-    role="dialog" 
-    aria-labelledby="exampleModalLabel" 
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
 
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Recipient:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label">Message:</label>
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Send message</button>
-          </div>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Recipient:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
